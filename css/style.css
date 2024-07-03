@@ -389,7 +389,7 @@ body {
   -ms-transition: opacity 0.2s;
   transition: opacity 0.2s;
   display: block;
-  padding: 85px 15px;
+  padding: 65px 15px;
 }
 .nav-icon:hover,
 .main-nav-link:hover {
