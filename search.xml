@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>随笔</title>
+    <url>/suibi/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~</p>
+<h4 id="近况"><a href="#近况" class="headerlink" title="近况"></a>近况</h4><p>现在测试阶段，更改网站程序现全静态，托管免费国外平台、只是顶级域名还是需要费用的。</p>
+<h4 id="关于"><a href="#关于" class="headerlink" title="关于"></a>关于</h4><p>本新程序正在研究中，比以前的程序复杂了些，在本地写东西最get到平台上面，感觉好麻烦，可能不太熟悉吧，还有友情链接什么的别急，研究中，这新的网站给我感觉像全都是自己编写代码差不多，没有后台UI编辑器…</p>
+<p>暂时就这样吧，实在没什么好写的，关于原网站程序，往后慢慢接入，等待我吧…</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;?php</span><br><span class="line">echo &quot;已下架软件正在逐步更新中...&quot;;</span><br><span class="line">?&gt;</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+  </entry>
+</search>
