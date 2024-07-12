@@ -22,7 +22,7 @@
     <meta name="description" content="前言服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~ 近况现在测试阶段，更改网站程序现全静态，托管免费国外平台、只是顶级域名还是需要费用的。 关于本新程序正在研究中，比以前的程序复杂了些，在本地写东西最get到">
 <meta property="og:type" content="article">
 <meta property="og:title" content="随笔">
-<meta property="og:url" content="http://example.com/suibi/index.html">
+<meta property="og:url" content="http://example.com/p/suibi/index.html">
 <meta property="og:site_name" content="红客防线">
 <meta property="og:description" content="前言服务器三年到期停掉了，没有最打算续费，因为真的贵的离谱，重新购买是可以、但是又得重新部署各种环境，少折腾不想折腾，网站运营以来一直非盈利模式，建站10多年花费将近不少费用，光是域名支出高达一千多元，服务器费用，以及个人精力维护省略不计~~ 近况现在测试阶段，更改网站程序现全静态，托管免费国外平台、只是顶级域名还是需要费用的。 关于本新程序正在研究中，比以前的程序复杂了些，在本地写东西最get到">
 <meta property="og:locale" content="zh_CN">
@@ -32,11 +32,11 @@
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/suibi/">
+<link rel="canonical" href="http://example.com/p/suibi/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/suibi/","path":"suibi/","title":"随笔"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/p/suibi/","path":"p/suibi/","title":"随笔"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>随笔 | 红客防线</title>
@@ -48,7 +48,7 @@
 
 
 
-
+<link rel="dns-prefetch" href="https://vercel.hkfx.net">
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
@@ -75,6 +75,7 @@
       <p class="site-title">红客防线</p>
       <i class="logo-line"></i>
     </a>
+      <p class="site-subtitle" itemprop="description">红防安全吧</p>
   </div>
 
   <div class="site-nav-right">
@@ -147,7 +148,7 @@
     <img class="site-author-image" itemprop="image" alt="葑訫"
       src="/images/avatar.jpg">
   <p class="site-author-name" itemprop="name">葑訫</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">攻防无绝对，技术无黑白</div>
 </div>
 <div class="site-state-wrap animated">
   <nav class="site-state">
@@ -196,7 +197,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/suibi/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/p/suibi/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -205,7 +206,7 @@
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="红客防线">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="攻防无绝对，技术无黑白">
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
@@ -235,6 +236,20 @@
       <time title="修改时间：2024-07-08 13:23:56" itemprop="dateModified" datetime="2024-07-08T13:23:56+08:00">2024-07-08</time>
     </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/p/suibi/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/p/suibi/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
 </div>
 
@@ -271,6 +286,7 @@
 
 
 
+    <div class="comments" id="waline"></div>
 </div>
   </main>
 
@@ -330,6 +346,17 @@
 
 
 
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://vercel.hkfx.net","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"appId":"LXu9OV4w0Ooyejcm6q4COUjO-MdYXbMMI","appKey":"xq7ldOEIS6jYUVWpdQYU1Shf","placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/p/suibi/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
 
 </body>
 </html>

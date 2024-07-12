@@ -49,7 +49,7 @@
 
 
 
-
+<link rel="dns-prefetch" href="https://vercel.hkfx.net">
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
@@ -76,6 +76,7 @@
       <p class="site-title">红客防线</p>
       <i class="logo-line"></i>
     </a>
+      <p class="site-subtitle" itemprop="description">红防安全吧</p>
   </div>
 
   <div class="site-nav-right">
@@ -147,7 +148,7 @@
     <img class="site-author-image" itemprop="image" alt="葑訫"
       src="/images/avatar.jpg">
   <p class="site-author-name" itemprop="name">葑訫</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">攻防无绝对，技术无黑白</div>
 </div>
 <div class="site-state-wrap animated">
   <nav class="site-state">
@@ -580,6 +581,7 @@ $(document).mousemove(function( event ) {
     
 
 
+    <div class="comments" id="waline"></div>
 </div>
   </main>
 
@@ -639,6 +641,17 @@ $(document).mousemove(function( event ) {
 
 
 
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-cn","enable":true,"serverURL":"https://vercel.hkfx.net","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"appId":"LXu9OV4w0Ooyejcm6q4COUjO-MdYXbMMI","appKey":"xq7ldOEIS6jYUVWpdQYU1Shf","placeholder":"请文明评论呀","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"visitor":false,"comment_count":true,"requiredFields":[],"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","el":"#waline","comment":true,"path":"/404.html"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<script>
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
+});
+</script>
 
 </body>
 </html>
