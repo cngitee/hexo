@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 红防安全吧</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Recent content in Categories on 红防安全吧</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
+    <lastBuildDate>Sat, 13 Jul 2024 15:09:58 +0800</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>日常类型</title>
+      <link>//localhost:1313/categories/%E6%97%A5%E5%B8%B8%E7%B1%BB%E5%9E%8B/</link>
+      <pubDate>Sat, 13 Jul 2024 15:09:58 +0800</pubDate>
+      <guid>//localhost:1313/categories/%E6%97%A5%E5%B8%B8%E7%B1%BB%E5%9E%8B/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

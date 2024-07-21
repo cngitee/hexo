@@ -1,0 +1,43 @@
+#baseURL = 'https://example.org/'
+languageCode = 'zh-CN'
+title = '红防安全吧'
+theme = 'congo' #主题
+# uglyurls = true #静态
+copyright = " ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ '备案查询')" 
+
+
+
+
+[Menus]
+  main = [
+      {Name = "🏠主页", Weight = -99, URL = "/"},
+      {Name = "📚文章", Weight = 1, URL = "/p"},
+      {Name = "📕分类", Weight = 2, URL = "/categories"},
+      {Name = "🔖标签", Weight = 3, URL = "/tags"},
+      {Name = "🤝链接", Weight = 5, URL = "/friends"},
+      {Name = "👨🏻关于", Weight = 5, URL = "/about"},
+      {Name = "🙋🏻‍♂️反馈", Weight = 6, URL = "/feedback"}
+  ]
+
+
+[params.author]
+   name = "HKFX NET"
+   image = "img/author.jpg"
+   headline = "Le vent se lève, il faut tenter de vivre."
+   bio = "快订阅我频道，让你站在上帝角度观察广泛视野，吾十多年运维Code跟Hacker功力，打你一拳、你顶的住吗。 :sheep:"
+# bio = "A little bit about you"
+
+   links = [
+     { email = "mailto:admin@hkfx.net" },
+     { apple = "https://appleid.apple.com/cn/" },
+   #  { facebook = "https://facebook.com/username" },
+     { github = "https://github.com/cngitee?tab=repositories" },
+   #  { google-scholar = "https://scholar.google.com/citations?user=user-id" },
+   #  { instagram = "https://instagram.com/username" },
+   #  { telegram = "https://t.me/username" },
+   #  { x-twitter = "https://twitter.com/username" },
+   # { youtube = "https://youtube.com/username" },
+  ]
+
+
+

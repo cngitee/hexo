@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/p/</loc>
+            <lastmod>2024-07-13T15:09:58+08:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/</loc>
+            <lastmod>2024-07-13T15:09:58+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/p/211/</loc>
+            <lastmod>2024-07-13T15:09:58+08:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/about/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/feedback/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/friends/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/led/kes/help/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>//localhost:1313/led/</loc>
+          </url>
+    
+  
+</urlset>

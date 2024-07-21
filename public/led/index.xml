@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leds on 红防安全吧</title>
+    <link>//localhost:1313/led/</link>
+    <description>Recent content in Leds on 红防安全吧</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <copyright> ©2011~2024 :thinking_face: [粤ICP备17091340号](https://beian.miit.gov.cn/ &#39;备案查询&#39;)</copyright>
+    <atom:link href="//localhost:1313/led/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>//localhost:1313/led/kes/help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/led/kes/help/</guid>
+      <description>�������� ����֧��ΪSHA-2ǩ���㷨,����KB4474419����&#xA;�񿨰�˹��-Ӧ�ó���ɾ������,�����޷�ɾ������&#xA;��Ͷ�������㷨[��Ǯ����]&#xA;������������˾ǧ������&#xA;��C#��-�����ƿͻ���&#xA;��лĳλ���С����͡�5Ԫ,����10*****9735 </description>
+    </item>
+  </channel>
+</rss>
